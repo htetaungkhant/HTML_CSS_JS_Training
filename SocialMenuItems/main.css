@@ -10,7 +10,7 @@ section {
     height: 100vh;
     display: flex;
     justify-content: center;
-    background: linear-gradient(to bottom, #ff4f8b, #dff1ff);
+    background: linear-gradient(to bottom, #6699CC, #003399);
 }
 
 section::before {
@@ -30,22 +30,25 @@ section .color {
 }
 
 section .color:nth-child(1) {
-    background: #ff359b;
+    /* background: #ff359b; */
+    /* background: #3399CC; */
     width: 500px;
     height: 500px;
     top: 0px;
 }
 
 section .color:nth-child(2) {
-    background: #00d2ff;
-    width: 700px;
+    /* background: #00d2ff; */
+    /* background: #0066CC; */
+    width: 500px;
     height: 500px;
     bottom: 0px;
     left: 100px;
 }
 
 section .color:nth-child(3) {
-    background: #fffd87;
+    /* background: #fffd87; */
+    /* background: #FFFFFF; */
     width: 400px;
     height: 400px;
     bottom: 0px;
