@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+
+    transition: all 0.35s;
+}
+
+body {
+    background: url("assets/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 50px;
+    color: #b3b3fe;
+    font-weight: 200;
+    margin-left: 200px;
+
+    cursor: default;
+}
+
+.hovered {
+    color: #fbfbfb;
+    font-weight: 900;
+}
+
+.hovered-adjacent {
+    color: #ccccfa;
+    font-weight: 400;
+}
