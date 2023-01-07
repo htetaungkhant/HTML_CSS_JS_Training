@@ -1,1 +1,1 @@
-![Example](Readme/Example.GIF)
+![Example](Readme/example.gif)
